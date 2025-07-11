@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    float diametro, raio, area, comprimento;
+
+    printf("Digite o diametro do circulo: ");
+    scanf("%f", &diametro);
+
+    raio = diametro / 2;
+    area = 3.14159 * raio * raio;
+    comprimento = 2 * 3.14159 * raio;
+
+    printf("Area do circulo: %.2f cm²\n", area);
+    printf("Comprimento da circunferencia: %.2f cm\n", comprimento);
+
+    return 0;
+}
