@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 int main() {
-    float altura, pesoIdeal;
+    int altura, pesoIdeal;
 
-    printf("Digite a altura do homem (em metros): ");
-    scanf("%f", &altura);
+    printf("Digite a altura do homem (em cm): ");
+    scanf("%d", &altura);
 
     pesoIdeal = (72.7 * altura) - 58;
 
-    printf("O peso ideal e: %.2f kg\n", pesoIdeal);
+    printf("O peso ideal e: %d kg\n", pesoIdeal);
 
     return 0;
 }
