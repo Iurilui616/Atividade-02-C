@@ -1,20 +1,20 @@
 #include <stdio.h>
 
 int main() {
-    float mes1, mes2, mes3, media;
+    int mes1, mes2, mes3, media;
 
-    printf("Digite o gasto com combustivel no primeiro mes: ");
-    scanf("%f", &mes1);
+    printf("Gasto com combustivel no primeiro mes: ");
+    scanf("%d", &mes1);
 
-    printf("Digite o gasto com combustivel no segundo mes: ");
-    scanf("%f", &mes2);
+    printf("Gasto com combustivel no segundo mes: ");
+    scanf("%d", &mes2);
 
-    printf("Digite o gasto com combustivel no terceiro mes: ");
-    scanf("%f", &mes3);
+    printf("Gasto com combustivel no terceiro mes: ");
+    scanf("%d", &mes3);
 
     media = (mes1 + mes2 + mes3) / 3;
 
-    printf("Media de gasto nos tres primeiros meses: %.2f\n", media);
+    printf("Media de gasto nos tres primeiros meses: %d\n", media);
 
     return 0;
 }
